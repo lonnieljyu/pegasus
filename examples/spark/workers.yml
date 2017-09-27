@@ -1,7 +1,7 @@
 purchase_type: on_demand
 subnet_id: subnet-86617bce
 price: 0.13
-num_instances: 3
+num_instances: 5
 key_name: Lonnie-IAM-keypair
 security_group_ids: sg-cedde5be
 instance_type: m4.large
