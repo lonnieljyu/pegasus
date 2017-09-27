@@ -18,7 +18,7 @@ PEG_ROOT=$(dirname ${BASH_SOURCE})/../..
 
 CLUSTER_NAME=elasticsearch-cluster
 
-peg up ${PEG_ROOT}/examples/elasticsearch/master.yml &
+# peg up ${PEG_ROOT}/examples/elasticsearch/master.yml &
 peg up ${PEG_ROOT}/examples/elasticsearch/workers.yml &
 
 wait
