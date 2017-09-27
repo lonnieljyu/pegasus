@@ -6,6 +6,7 @@ key_name: Lonnie-IAM-keypair
 security_group_ids: sg-cedde5be
 instance_type: m4.large
 tag_name: spark-cluster
-vol_size: 100
+vol_type: gp2
+vol_size: 1024
 role: worker
 use_eips: true
